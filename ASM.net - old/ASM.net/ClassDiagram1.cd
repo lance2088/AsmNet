@@ -1,0 +1,2832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ASM.net.Form1" Collapsed="true">
+    <Position X="60" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>B4CGAvUgACAAAgCJgHGhkF+zC4hAyQwREigJRLABBEU=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.frmEmulate" Collapsed="true">
+    <Position X="61.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wEQABYCWCMFARIAAEaAAYjiJwA4AAkSAnAAA6ACRDM=</HashCode>
+      <FileName>frmEmulate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.Options" Collapsed="true">
+    <Position X="47.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIhAAACAAABEQgACAQAQCAAAYAAAAAGAIAYHAAAA=</HashCode>
+      <FileName>Options.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.Program" Collapsed="true">
+    <Position X="40.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.TextboxHighlighting" Collapsed="true">
+    <Position X="47.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFQEBACAAQkEAAAKAABACAAQgEAACAAgYSgADAAA=</HashCode>
+      <FileName>TextboxHighlighting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.VirtualScreen" Collapsed="true">
+    <Position X="44.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACACAAAAAAAACAAAACAAAAAAABAAAAAQAAEAA=</HashCode>
+      <FileName>VirtualScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.Properties.Resources" Collapsed="true">
+    <Position X="39" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAABEAAQAQCAAAAAAIAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.Properties.Settings" Collapsed="true">
+    <Position X="58.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.src.AssemblerCompiler" Collapsed="true">
+    <Position X="44.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAEAAAAAIAAAgAAAAEAAAAAAAAA=</HashCode>
+      <FileName>src\AssembleCompiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.src.CompileError" Collapsed="true">
+    <Position X="56.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>src\CompileError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.src.GlobalVariables" Collapsed="true">
+    <Position X="54.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\GlobalVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.src.RegexPatterns" Collapsed="true">
+    <Position X="58.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAIAAAAAQAAAAACAAAABAQAACAAAAAAAAAA=</HashCode>
+      <FileName>src\RegexPatterns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.src.Settings" Collapsed="true">
+    <Position X="60" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAADAAAA=</HashCode>
+      <FileName>src\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.AggressiveReflectionReader" Collapsed="true">
+    <Position X="25.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAQAAgAhAAIEAAAAAAAAAAAAAQABUEAEEACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AggressiveReflectionReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ArrayDimension" Collapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAANAAAAAAAAAAEAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ArrayDimension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ArrayDimensionCollection" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ArrayDimensionCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ArrayType" Collapsed="true">
+    <Position X="25.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAAAAYAAgAAAAAAACAAAAAABAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ArrayType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.AssemblyDefinition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQCAAhAAAgECgAAAARYBChAAABAAJABAAAICBA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.AssemblyFactory" Collapsed="true">
+    <Position X="47.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAABAAAAAACAAAAKABAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.AssemblyLinkedResource" Collapsed="true">
+    <Position X="11.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyLinkedResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.AssemblyNameDefinition" Collapsed="true">
+    <Position X="22" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyNameDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.AssemblyNameReference" Collapsed="true">
+    <Position X="22" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIAgBAQAAEIAAIAEEAAAEIQEAQAAAABAAAAAAAEQACA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyNameReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.AssemblyNameReferenceCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyNameReferenceCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.BaseAssemblyResolver" Collapsed="true">
+    <Position X="19" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAACAAAAAAQAAAAACAAAAEAAAAAAAAAAg=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\BaseAssemblyResolver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.BaseReflectionReader" Collapsed="true">
+    <Position X="25.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAACAAAAQAAAAAAACgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\BaseReflectionReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.BaseReflectionVisitor" Collapsed="true">
+    <Position X="24.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAEAA4BA5AAAAIAIAUEEAEAAQJgAQACERMQEQwA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\BaseReflectionVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.BaseStructureVisitor" Collapsed="true">
+    <Position X="25.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwAAgAAAQAEAggAAIAACQAAAAQAAAABAAEAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\BaseStructureVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.CallSite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAQAEAAAAAEAAAAABAABAAIAAAAAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\CallSite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Constants" Collapsed="true">
+    <Position X="60" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAIQAYQAAABAwQAAAAACAJgICAKAAEUAAAAACEAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ConstraintCollection" Collapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ConstraintCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ConstructorCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAIACAEABAABAIAAAAQACAAAAABQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ConstructorCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.CustomAttribute" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMAAAEEAAACgAACAAAFAAAAAABABgAAIAAAIDAQCoDA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\CustomAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.CustomAttributeCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\CustomAttributeCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.DefaultAssemblyResolver" Collapsed="true">
+    <Position X="19" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\DefaultAssemblyResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.EmbeddedResource" Collapsed="true">
+    <Position X="13.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\EmbeddedResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.EventDefinition" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAARIQMEAAAQAAgAAACAAAAAICAIABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\EventDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.EventDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAIACAEABAAAAIAAAAQACAAAAABQCAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\EventDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.EventReference" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\EventReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ExternTypeCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AsIAAAwAAICAABIBCAAAFCAQQIUAAAQACAAAAABQIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ExternTypeCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.FieldDefinition" Collapsed="true">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAQAAAAEBAAAAQCAQEAAAYBAgkIAgAAABAIAAKwBA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\FieldDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.FieldDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAgAAAAAIACAEABAAAAIAAAAQACAAAAABQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\FieldDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.FieldReference" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\FieldReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.FunctionPointerType" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAaAAAAAAAEQAAAABIAAAAIAAAAAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\FunctionPointerType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.GenericArgumentCollection" Collapsed="true">
+    <Position X="40.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\GenericArgumentCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.GenericContext" Collapsed="true">
+    <Position X="42.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAAAAAAAgBAAAAAAAAAAAAQIAAAAAADA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\GenericContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.GenericInstanceMethod" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAQAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\GenericInstanceMethod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.GenericInstanceType" Collapsed="true">
+    <Position X="20.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAgAAAAQAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\GenericInstanceType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.GenericParameter" Collapsed="true">
+    <Position X="34.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAACAAiAAAIAgAAAEAAQQAAAAIBAAAAAAAACAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\GenericParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.GenericParameterCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\GenericParameterCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.HashCodeProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\HashCodeProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.ImportContext" Collapsed="true">
+    <Position X="44.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAMAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ImportContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.InterfaceCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\InterfaceCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.LinkedResource" Collapsed="true">
+    <Position X="15.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAIAAAAAAAAAAACEAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\LinkedResource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.MarshalSpec" Collapsed="true">
+    <Position X="6" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAgAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MarshalSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ArrayMarshalSpec" Collapsed="true">
+    <Position X="1.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIAAAAAAAAAAIAACAAAAAAIgCAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MarshalSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.CustomMarshalerSpec" Collapsed="true">
+    <Position X="3.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAEAAAAAAAAEAAAAAIQBAAAAAAAAAAAgEA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MarshalSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.SafeArraySpec" Collapsed="true">
+    <Position X="6" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MarshalSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.FixedArraySpec" Collapsed="true">
+    <Position X="8.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MarshalSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.FixedSysStringSpec" Collapsed="true">
+    <Position X="10.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MarshalSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.MemberReference" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAQAAIAAAAAEAAAAAAQAAAAAAABAAAAAAAgAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MemberReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.MemberReferenceCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MemberReferenceCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.MethodDefinition" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAACAVAIQCCQAAAFAhBYACogAIBgACJAoIgIgBA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.MethodDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAACAABIACAEABAAAAIAAAAQACAAAAABQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.MethodReference" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhQABAAAAAAABACEAAgAAkAAABABAEAAAIAAAAAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.MethodReturnType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAEAAAAAAAAQgAAAAAAAQAEhAAAAAAAAMAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodReturnType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.MethodSpecification" Collapsed="true">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAEQAAAAABAAAAIgAAAgEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ModType" Collapsed="true">
+    <Position X="28.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\Modifiers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ModifierOptional" Collapsed="true">
+    <Position X="27.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\Modifiers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ModifierRequired" Collapsed="true">
+    <Position X="29.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\Modifiers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ModuleDefinition" Collapsed="true">
+    <Position X="13" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>goABiAAQIYQCAGIEYAEKIEEAAogEAJAAQDAABAAIBAI=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ModuleDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.ModuleDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ModuleDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.ModuleReference" Collapsed="true">
+    <Position X="13" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAQAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ModuleReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.ModuleReferenceCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ModuleReferenceCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.NestedTypeCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAIACAEABAAAAIAAAAQACAAAAABQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\NestedTypeCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.OverrideCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\OverrideCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.ParameterDefinition" Collapsed="true">
+    <Position X="10" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EJAAAAAAAEAAAAAAAAQkAAAQAAgEAAgAAAAAAAAKABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ParameterDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.ParameterDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ParameterDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.ParameterReference" Collapsed="true">
+    <Position X="10" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UIAAAAQAAABAAAAEAIAAAAQAAAAAAABAAAAAAAEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ParameterReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.PinnedType" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PinnedType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.PInvokeInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAsAABQAAAAAAAAQAABCAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PInvokeInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.PointerType" Collapsed="true">
+    <Position X="23" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PointerType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.PropertyDefinition" Collapsed="true">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EqAAAAAAAgiAAAAUAAQEAAAQAAgAAEgAAIAAIAAKABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PropertyDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.PropertyDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIACEQAAAAAAAIACAEABAAAAIAAAAQACAAAAABQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PropertyDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.PropertyReference" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEIACAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PropertyReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ReferenceType" Collapsed="true">
+    <Position X="32" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ReferenceType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ReflectionController" Collapsed="true">
+    <Position X="54.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAABAAAAAAEAAAAAAIAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ReflectionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ReflectionException" Collapsed="true">
+    <Position X="16" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ReflectionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ReflectionHelper" Collapsed="true">
+    <Position X="56.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACQIBAQQQAJCAQFQBAKgBEBEAEQggAIIQACEAKACo=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ReflectionHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ReflectionReader" Collapsed="true">
+    <Position X="25.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cNACoIsgUoAggCCCAJigEyH4NhAUgDAAIAADDIAAgRY=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ReflectionReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.ReflectionWriter" Collapsed="true">
+    <Position X="23.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IDEJsAEADgQRpRiIAImLU0wsAkgQQJxoiAZUTMgUUgA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ReflectionWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Resource" Collapsed="true">
+    <Position X="13.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAABAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\Resource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.ResourceCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ResourceCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.SecurityDeclaration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAACwAAAAAAAAAAAAAAABAAAAAAAJgAAAABQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\SecurityDeclaration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.SecurityDeclarationCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAQAQACAAJAACAAAFAQAAAAAAAQAAAAAAABQIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\SecurityDeclarationCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.SecurityDeclarationReader" Collapsed="true">
+    <Position X="54.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAAAAAAAAAAAEAEAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\SecurityDeclarationReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.SentinelType" Collapsed="true">
+    <Position X="18.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\SentinelType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.StructureReader" Collapsed="true">
+    <Position X="24.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAgQAAQACAggAQAAICABAIBAQBRAAIAAAAAAAQAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\StructureReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.StructureWriter" Collapsed="true">
+    <Position X="26.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAwAAgAAAQAEAhwgAAAACQQAAAQAAIBBAAEAAAAAFAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\StructureWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.TableComparers" Collapsed="true">
+    <Position X="46" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TableComparers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.TypeDefinition" Collapsed="true">
+    <Position X="36.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAgQEEDCBAAgACQAIAUAggQBiAAAQAIEQQAIQBDgFQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TypeDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.TypeDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AsIAAAwAAICAABIBCAAAFCAQQIUAAAQACAAAAABQIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TypeDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.TypeReference" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYAAAAAgAQAgKAkAIgAAARAAAgAIAAAAAAACAAIAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TypeReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.TypeReferenceCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AsIAAAwAAICAABIBCAAAFCAQQIUAAAQACAAAAABQIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TypeReferenceCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.TypeSpecification" Collapsed="true">
+    <Position X="23" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAgKAAAAAAAAQAAAAAIAAAAAAAAQAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TypeSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.BaseImageVisitor" Collapsed="true">
+    <Position X="4.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAgAEQAAwAAAIAAAAAAAAAAAIQAAAAgSIAADAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\BaseImageVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.CLIHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAABAAAJAAAAAAAABIAAAEAQAQAAAAAAAAAAKAGgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\CLIHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.CopyImageVisitor" Collapsed="true">
+    <Position X="1.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAAAAAAAAAAAIgAAAABIIAAAAAAAAAAAAAABAAQAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\CopyImageVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.DebugHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAEAAAAAQAAACACEAAAAAAAEABAgEAAQAAAABCAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\DebugHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.DOSHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\DOSHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.Image" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAQEwAGAIEAgAIAABABGAETkAEABAAAIEDKIAIAAQA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\Image.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ImageFormatException" Collapsed="true">
+    <Position X="16" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ImageFormatException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ImageInitializer" Collapsed="true">
+    <Position X="3.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAiAEQAA0AAAAAAAAAAAAAAAAQABAAgCIAACAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ImageInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ImageReader" Collapsed="true">
+    <Position X="6" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAgAEQAAwAAAIIAAAAAAAgAAKAABAAgSIAADACIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ImageReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ImageWriter" Collapsed="true">
+    <Position X="8.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iCAAgAEQAAwAARQAAAAAAAAQAAIEBEAAhSIAADEIgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ImageWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ImportAddressTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\Imports.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ImportTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAABBAAQAAAAAAAAAAAACAAAAAQA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\Imports.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ImportLookupTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\Imports.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.HintNameTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAEAAAgAAAAAAgAACAAAAAQAAAAABBAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\Imports.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.MemoryBinaryWriter" Collapsed="true">
+    <Position X="44.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAIFAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\MemoryBinaryWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.PEFileHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQAAAAAAECAEAAAAAEAABAAAAAAAAAAACAAQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\PEFileHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.PEOptionalHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQgAAAAACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\PEOptionalHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ResourceDataEntry" Collapsed="true">
+    <Position X="1.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAgAgAAAAAAAAAAAAAAAABAAAgAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ResourceDataEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ResourceDirectoryEntry" Collapsed="true">
+    <Position X="3.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgIAAAAAAAAQAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ResourceDirectoryEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ResourceDirectoryString" Collapsed="true">
+    <Position X="6" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ResourceDirectoryString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ResourceDirectoryTable" Collapsed="true">
+    <Position X="8.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAARAACAACAAAAAAAAEABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ResourceDirectoryTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ResourceNode" Collapsed="true">
+    <Position X="4.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ResourceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ResourceReader" Collapsed="true">
+    <Position X="61.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAAAAAAAgAAAgAAAAoCAAABAAAIAAAAAAAACA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ResourceReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.ResourceWriter" Collapsed="true">
+    <Position X="40.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAABQABAAAAAAAAAAQgACARAEAACAIBAEAIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ResourceWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Binary.Section" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAgIgAAAABQiAAAAAQAAAAAABEAEAAACAACAAI=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\Section.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Binary.SectionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEAAQACAABAACAAAFAQAAAAAAAAACAAAAABQIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\SectionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.BaseCodeVisitor" Collapsed="true">
+    <Position X="24.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAIIAIAAACABAAAQAAAAAAAAABACAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\BaseCodeVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.CilWorker" Collapsed="true">
+    <Position X="49.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAEAAAABABBAAAAAAQUAAAAAAABAAACA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\CilWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.CodeReader" Collapsed="true">
+    <Position X="23.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAABgAAAAAIAAAQAACAAAAACAEAAAAAABAAgAQgA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\CodeReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.CodeWriter" Collapsed="true">
+    <Position X="25.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAABAAgISQJAAACAAAAAQAACwAAAIwAAABEIQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\CodeWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.Document" Collapsed="true">
+    <Position X="61.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAACEIAAQQAAAAAEAAEAAAAAQAACQAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\Document.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.ExceptionHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gICAIQAAQBAJEAAAiAAAAAAAAAAgACAAAQAAAAAAAgA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ExceptionHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.ExceptionHandlerCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ExceptionHandlerCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.GuidAttribute" Collapsed="true">
+    <Position X="56.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAgA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\GuidAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.Instruction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoABAAAAAAAAAwAAAAAAAAAAAAAAICABAEAAAAEAgAQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\Instruction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.InstructionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAkQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\InstructionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.MethodBody" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AZAAAAAAAAkAEGCAIAQgAAQAAEBIABAAiAQAEAAAAjg=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\MethodBody.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.OpCodes" Collapsed="true">
+    <Position X="46" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YscMwqQKCghSU7dm/OYvBxKiaOPvmcZv+/fGiHiNYRw=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\OpCodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.Scope" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAACAACAAEGAAAAAAQAAAAAAAIAAQAAQAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\Scope.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.ScopeCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ScopeCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.SequencePoint" Collapsed="true">
+    <Position X="56.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAQwAAAAAAAAAIAACEgAAIAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\SequencePoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.SymbolStoreHelper" Collapsed="true">
+    <Position X="42.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAEAAAAAABAAAAAAAQAAkgA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\SymbolStoreHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.VariableDefinition" Collapsed="true">
+    <Position X="7" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\VariableDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Cil.VariableDefinitionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEQAAAAAAAAACAEABAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\VariableDefinitionCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Cil.VariableReference" Collapsed="true">
+    <Position X="7" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAEAASAAAEAAAAAAQAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\VariableReference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Assembly.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAABAAAAAQAQAAAAAgAAAQAAUAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Assembly.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyOSTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyOS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyOSRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAIAAAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyOS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyProcessorTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyProcessorRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyRefTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyRefRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAQAQAAAAAgAAAQAAUAAABAAAAAAAAAIAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyRefOSTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyRefOS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyRefOSRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAIAAAAAAAAAAAAAAAAAAAAAABAAAIAABAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyRefOS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyRefProcessorTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyRefProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.AssemblyRefProcessorRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\AssemblyRefProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.BaseMetadataVisitor" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAACAAAAAAAAAQABAJAAAAAAAQAAIACAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\BaseMetadataVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.BaseMetadataTableVisitor" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAFBUEAAgQABCAAAAEagDCEUCIg2MpIEAIFAgAAoBA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\BaseMetadataVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.BaseMetadataRowVisitor" Collapsed="true">
+    <Position X="20.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQAoAZQCJAiAhAAAEAYBEAAoAWTAEBCIEiBAAAAAEkU=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\BaseMetadataVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.BlobHeap" Collapsed="true">
+    <Position X="18.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\BlobHeap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ClassLayoutTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ClassLayout.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ClassLayoutRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAQAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ClassLayout.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ConstantTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Constant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ConstantRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Constant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.CultureUtils" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAgAAAAAAAAAAAAAAIAgAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\CultureUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.CustomAttributeTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\CustomAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.CustomAttributeRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\CustomAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.DeclSecurityTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\DeclSecurity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.DeclSecurityRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\DeclSecurity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.EventTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Event.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.EventRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAIAAAAAAAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Event.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.EventMapTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\EventMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.EventMapRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\EventMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.EventPtrTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\EventPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.EventPtrRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\EventPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ExportedTypeTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ExportedType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ExportedTypeRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAwAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ExportedType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Field.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Field.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldLayoutTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldLayout.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldLayoutRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldLayout.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldMarshalTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldMarshal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldMarshalRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldMarshal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldPtrTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldPtrRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldRVATable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldRVA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FieldRVARow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\FieldRVA.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FileTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\File.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.FileRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\File.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.GenericParamTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\GenericParam.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.GenericParamRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABACAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\GenericParam.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.GenericParamConstraintTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\GenericParamConstraint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.GenericParamConstraintRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\GenericParamConstraint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.GuidHeap" Collapsed="true">
+    <Position X="13.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\GuidHeap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ImplMapTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ImplMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ImplMapRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ImplMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.InterfaceImplTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\InterfaceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.InterfaceImplRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\InterfaceImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ManifestResourceTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ManifestResource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ManifestResourceRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ManifestResource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MemberRefTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MemberRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MemberRefRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MemberRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataFormatException" Collapsed="true">
+    <Position X="16" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataFormatException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataHeap" Collapsed="true">
+    <Position X="16" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAAAAAAAAAAIAIIAQAAAAEABAAAAAAIAAAQAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataHeap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataInitializer" Collapsed="true">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAQAAAIAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataReader" Collapsed="true">
+    <Position X="21.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAAEAADAAAAAAAACQABAJAAAQAAAQIAIBGAACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataRoot" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hIABAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataRoot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataRowReader" Collapsed="true">
+    <Position X="19.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQAoAZQCJAiABgAQEBZBEAAoAWTAEBCIkiBAAAgCEkU=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataRowReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataRowWriter" Collapsed="true">
+    <Position X="21.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4xAqQZQiJAiCBoYANjZFEACoI+TAGhOckiBBZIklEkU=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataRowWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataStream" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMBAAAAAAAAIAAAAAAAAQgDIEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataStream.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataStreamCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIIAAAAAQBCAABAAKBAAFAQAAAAAAAAAACEBAACAKAI=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataStreamCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataTableReader" Collapsed="true">
+    <Position X="23.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEcdBeUyEgQo5CIUIDEbhDKEUCIh+tpJkAKFgkBCoHA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataTableReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataTableWriter" Collapsed="true">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEYYAKVyEAAo4AYUIQABBAIAEAABIkhJkAKFgEBAkGA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataTableWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MetadataWriter" Collapsed="true">
+    <Position X="23.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIRANAIKAASKRyILAcIBCZBABQUgFQEJIFCAUUEIY=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Method.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAABAAAAAAAAAAAAAAEAAQAAAAAAAAAAABAAAAAAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Method.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodImplTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodImplRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAIACAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodImpl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodPtrTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodPtrRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodSemanticsTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodSemantics.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodSemanticsRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodSemantics.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodSpecTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.MethodSpecRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MethodSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ModuleTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Module.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ModuleRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAQIAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Module.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ModuleRefTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ModuleRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ModuleRefRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ModuleRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.NestedClassTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\NestedClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.NestedClassRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\NestedClass.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ParamTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Param.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ParamRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Param.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ParamPtrTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="54.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ParamPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.ParamPtrRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ParamPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.PropertyTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Property.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.PropertyRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Property.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.PropertyMapTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="46" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\PropertyMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.PropertyMapRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\PropertyMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.PropertyPtrTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\PropertyPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.PropertyPtrRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="47.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\PropertyPtr.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.RowCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAAEAAQACAABAACAAQFAQAAAAAAAAACAAAAABQIAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\RowCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.StandAloneSigTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\StandAloneSig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.StandAloneSigRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\StandAloneSig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.StringsHeap" Collapsed="true">
+    <Position X="11.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\StringsHeap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TableCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAACIABAACAAAFAQAEAAIAAAAAAAAAAAQIAI=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TableCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TablesHeap" Collapsed="true">
+    <Position X="16" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAAwACAAACAAQQAAgAEAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TablesHeap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TypeDefTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TypeDef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TypeDefRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="51.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAIAAAAIAAAAAAAAAQAAAAAIAAAAAAAAAAAQAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TypeDef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TypeRefTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="58.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TypeRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TypeRefRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="56.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAIAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TypeRef.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TypeSpecTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECAAAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TypeSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.TypeSpecRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TypeSpec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.UserStringsHeap" Collapsed="true">
+    <Position X="20.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\UserStringsHeap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Metadata.Utilities" Collapsed="true">
+    <Position X="40.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAABAAABBAAAAAAAAABAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.ARRAY" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\Array.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.ArrayShape" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAQABAAAAACAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\ArrayShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.BaseSignatureVisitor" Collapsed="true">
+    <Position X="12.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAQAACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\BaseSignatureVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.CLASS" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.CustomAttrib" Collapsed="true">
+    <Position X="44.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAACAAAAAAAAAAAgAIAAAAAAAICAAAAAAAQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\CustomAttrib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.CustomMod" Collapsed="true">
+    <Position X="53" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\CustomMod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.FieldSig" Collapsed="true">
+    <Position X="15.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgBA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\FieldSig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.FNPTR" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\FnPtr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.GenericArg" Collapsed="true">
+    <Position X="39" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\GenericArg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.GENERICINST" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\GenericInst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.GenericInstSignature" Collapsed="true">
+    <Position X="44.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\GenericInstSignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.InputOutputItem" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAAAgAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\InputOutputItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.LocalVarSig" Collapsed="true">
+    <Position X="18" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\LocalVarSig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.MarshalSig" Collapsed="true">
+    <Position X="61.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\MarshalSig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.MethodDefSig" Collapsed="true">
+    <Position X="20.25" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\MethodDefSig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.MethodRefSig" Collapsed="true">
+    <Position X="20.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\MethodRefSig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.MethodSig" Collapsed="true">
+    <Position X="20.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAgAAAAAAEAIEAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\MethodSig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.MethodSpec" Collapsed="true">
+    <Position X="44.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\MethodSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.MVAR" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\MVar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.Param" Collapsed="true">
+    <Position X="1.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\Param.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.PropertySig" Collapsed="true">
+    <Position X="13.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAYAAAQAAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\PropertySig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.PTR" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\Ptr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.RetType" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\RetType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.Signature" Collapsed="true">
+    <Position X="16.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\Signature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.SignatureReader" Collapsed="true">
+    <Position X="11.25" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIICgRARAAQACAAQgkIMhAGBIyQhCQAAAQDQACGAAc=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\SignatureReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.SignatureWriter" Collapsed="true">
+    <Position X="13.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAACAABAAAgAIAQAAAIAAgBAAABwAQAECAEE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\SignatureWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.SigType" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\SigType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.SZARRAY" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\SzArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.TypeSpec" Collapsed="true">
+    <Position X="60" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\TypeSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.VALUETYPE" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\ValueType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Cecil.Signatures.VAR" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\Var.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Xml.MiniParser" Collapsed="true">
+    <Position X="51.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAABAABBAAAAEAAQAgBAAAAAQAAAQABAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Xml\MiniParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Xml.SecurityParser" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAgAgAAAQAgAAAAgBAAAIIEAAAgIAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Xml\SecurityParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mono.Xml.DefaultHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAQAAAAAAABAAAAIAAAAgIAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Xml\SmallXmlParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Mono.Xml.SmallXmlParser" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEgAAgAAAAEISAKAAAgAAAgQAAEUgBARMBEAEAQAgA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Xml\SmallXmlParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mono.Xml.SmallXmlParserException" Collapsed="true">
+    <Position X="61.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Xml\SmallXmlParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASM.net.src.NetFuscator.NetFuscator" Collapsed="true">
+    <Position X="44.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\NetFuscator\NetFuscator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Mono.Cecil.Binary.DataDirectory" Collapsed="true">
+    <Position X="39" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEgAAAEAAAAQAAAIAAAAAAAAIAAiA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\DataDirectory.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Mono.Cecil.Binary.RVA" Collapsed="true">
+    <Position X="44.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEwAGAAgAAAQAgAIAAAACgAAAIByA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\RVA.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Mono.Cecil.Cil.OpCode" Collapsed="true">
+    <Position X="42.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAkAGAAAAAgAEEgACgAIQAAAAAAIAiAAEgACYACiA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\OpCode.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Mono.Cecil.Metadata.MetadataToken" Collapsed="true">
+    <Position X="40.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAEgAAAAAAAAQAAAIAAABAAAAAggiA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\MetadataToken.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Mono.Cecil.IAssemblyResolver" Collapsed="true">
+    <Position X="39" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IAssemblyResolver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.ICustomAttributeProvider" Collapsed="true">
+    <Position X="47.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ICustomAttributeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IDetailReader" Collapsed="true">
+    <Position X="49.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAACAAAAQAAAAAAACgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IDetailReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IGenericInstance" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IGenericInstance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IGenericParameterProvider" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IGenericParameterProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IHasConstant" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IHasConstant.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IHasMarshalSpec" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IHasMarshalSpec.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IHasSecurity" Collapsed="true">
+    <Position X="12" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IHasSecurity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IMemberDefinition" Collapsed="true">
+    <Position X="8.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IMemberDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IMemberReference" Collapsed="true">
+    <Position X="8.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IMemberReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IMetadataScope" Collapsed="true">
+    <Position X="16.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IMetadataScope.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IMetadataTokenProvider" Collapsed="true">
+    <Position X="8.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IMetadataTokenProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IMethodSignature" Collapsed="true">
+    <Position X="60" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAAAAAEAAAAABAAAAAIAAAAAEAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IMethodSignature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IReflectionStructureVisitable" Collapsed="true">
+    <Position X="61.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IReflectionStructureVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IReflectionStructureVisitor" Collapsed="true">
+    <Position X="39" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwAAgAAAQAEAggAAAAACQAAAAQAAAABAAEAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IReflectionStructureVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IReflectionVisitable" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IReflectionVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IReflectionVisitor" Collapsed="true">
+    <Position X="40.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAEAA4BA5AAAAIAIAUEEAEAAQJgAQACERMQEQwA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IReflectionVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.IRequireResolving" Collapsed="true">
+    <Position X="42.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\IRequireResolving.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Binary.IBinaryVisitable" Collapsed="true">
+    <Position X="40.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\IBinaryVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Binary.IBinaryVisitor" Collapsed="true">
+    <Position X="42.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABAgAEQAAwAAAIAAAAAAAAAAAIQAAAAgSIAADAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\IBinaryVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Binary.IHeader" Collapsed="true">
+    <Position X="51.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\IHeader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Cil.ICodeVisitable" Collapsed="true">
+    <Position X="44.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ICodeVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Cil.ICodeVisitor" Collapsed="true">
+    <Position X="46" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAIIAIAAACABAAAQAAAAAAAAABACAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ICodeVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Cil.IScopeProvider" Collapsed="true">
+    <Position X="44.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\IScopeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Cil.ISymbolReader" Collapsed="true">
+    <Position X="49.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ISymbolReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Cil.ISymbolStoreFactory" Collapsed="true">
+    <Position X="51.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ISymbolStoreFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Cil.ISymbolWriter" Collapsed="true">
+    <Position X="53" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ISymbolWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Cil.IVariableDefinitionProvider" Collapsed="true">
+    <Position X="54.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\IVariableDefinitionProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataRow" Collapsed="true">
+    <Position X="1" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataRow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataTable" Collapsed="true">
+    <Position X="4" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataTable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataVisitable" Collapsed="true">
+    <Position X="56.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataTableVisitable" Collapsed="true">
+    <Position X="4" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataRowVisitable" Collapsed="true">
+    <Position X="1" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataVisitor" Collapsed="true">
+    <Position X="58.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAACAAAAAAAAAQABAJAAAAAAAQAAIACAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataTableVisitor" Collapsed="true">
+    <Position X="54.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAFBUEAAgQABCAAAAEagDCEUCIg2MpIEAIFAgAAoBA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Metadata.IMetadataRowVisitor" Collapsed="true">
+    <Position X="53" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oQAoAZQCJAiAhAAAEAYBEAAoAWTAEBCIEiBAAAAAEkU=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\IMetadataVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Signatures.ISignatureVisitable" Collapsed="true">
+    <Position X="46" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\ISignatureVisitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Mono.Cecil.Signatures.ISignatureVisitor" Collapsed="true">
+    <Position X="47.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAQAACAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\ISignatureVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ASM.net.src.BuildOutput" Collapsed="true">
+    <Position X="44.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.AssemblyFlags" Collapsed="true">
+    <Position X="39" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIQAAAAIAAAAAAEAAAAIAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyFlags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.AssemblyHashAlgorithm" Collapsed="true">
+    <Position X="40.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyHashAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.AssemblyKind" Collapsed="true">
+    <Position X="42.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\AssemblyKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.EventAttributes" Collapsed="true">
+    <Position X="61.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\EventAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.FieldAttributes" Collapsed="true">
+    <Position X="40.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQAAgAAAAAAACAAAAAAAAEEMQgAAoAGAAgAAAAARAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\FieldAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.FileAttributes" Collapsed="true">
+    <Position X="42.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\FileAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.GenericParameterAttributes" Collapsed="true">
+    <Position X="46" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAABAAAAAAAAAAQBIAAgBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\GenericParameterAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.ManifestResourceAttributes" Collapsed="true">
+    <Position X="49.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ManifestResourceAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.MethodAttributes" Collapsed="true">
+    <Position X="51.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAUARAEAAACAAAIQAAAAEEFAAAgAHAEgAAAAARAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.MethodCallingConvention" Collapsed="true">
+    <Position X="53" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAQAAQAAYAAAAAAAAAAAAAIAgAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodCallingConvention.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.MethodImplAttributes" Collapsed="true">
+    <Position X="58.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAJAAAAQAAIAACCIAAAACABAABAAAIAAAAEAgAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodImplAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.MethodSemanticsAttributes" Collapsed="true">
+    <Position X="60" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAIAAAAAAQAAEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\MethodSemanticsAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.NativeType" Collapsed="true">
+    <Position X="61.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAgRkJACARACAACQAAIQIIAwAIEAEAAQAQiAMICIA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\NativeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.ParameterAttributes" Collapsed="true">
+    <Position X="42.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAgAAAAAAAAEAAQAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\ParameterAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.PInvokeAttributes" Collapsed="true">
+    <Position X="44.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAFAJAAAADAAAgABAgAAAAAAgAAAAAAAAAAIABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PInvokeAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.PropertyAttributes" Collapsed="true">
+    <Position X="46" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAEAAAAAAgACAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\PropertyAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.SecurityAction" Collapsed="true">
+    <Position X="51.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGCAAEAAAAAAAIAAAAAAIAA4AAAAAUAAAAApAQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\SecurityAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.TargetRuntime" Collapsed="true">
+    <Position X="56.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAMAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TargetRuntime.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.TypeAttributes" Collapsed="true">
+    <Position X="60" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEABgABAAAAAEAAIYJFCAAkAMCAAgACAAAAACMASIA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\TypeAttributes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.VariantType" Collapsed="true">
+    <Position X="61.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQABABABAAAAAAAAAAIAAACISAEIAAEQoAAAEAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil\VariantType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Binary.DebugStoreType" Collapsed="true">
+    <Position X="51.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAQAAABAAAAAEEAAAgAAAQAAAAgAAgAABAAAAAABA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\DebugStoreType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Binary.ImageCharacteristics" Collapsed="true">
+    <Position X="47.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABFCABAIAAEAAAIQAACEAAAAAAAAAAgAAEAAIlAwA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\ImageCharacteristics.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Binary.RuntimeImage" Collapsed="true">
+    <Position X="47.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAAAAEA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\RuntimeImage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Binary.SectionCharacteristics" Collapsed="true">
+    <Position X="49.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAiASIgMgBAAACAECABAAECgCAAAQGAAAgEhAAAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\SectionCharacteristics.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Binary.SubSystem" Collapsed="true">
+    <Position X="54.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAQACABAAAAAAEAAIAAAQAgSAAAAAAAAAAAADA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Binary\SubSystem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.Code" Collapsed="true">
+    <Position X="46" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IscMwqQKCghSU7dm/OYvBxKiaOPvmcZv+/fGiFiNYRw=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\Code.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.DocumentHashAlgorithm" Collapsed="true">
+    <Position X="53" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\DocumentHashAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.DocumentLanguage" Collapsed="true">
+    <Position X="54.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAACAAAAAAAAAAAAAAAQACAAAAABAAAAAAAkAGAAEA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\DocumentLanguage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.DocumentLanguageVendor" Collapsed="true">
+    <Position X="56.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\DocumentLanguageVendor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.DocumentType" Collapsed="true">
+    <Position X="58.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\DocumentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.ExceptionHandlerType" Collapsed="true">
+    <Position X="39" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\ExceptionHandlerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.FlowControl" Collapsed="true">
+    <Position X="44.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAAAAAAAAAAEAAAAAAAAAIgAAQBAEAAAAIA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\FlowControl.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.MethodDataSection" Collapsed="true">
+    <Position X="54.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAEAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\MethodDataSection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.MethodHeader" Collapsed="true">
+    <Position X="56.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\MethodHeader.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.OpCodeType" Collapsed="true">
+    <Position X="39" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAgAACAgAAAAAAAAAAAIAAQAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\OpCodeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.OperandType" Collapsed="true">
+    <Position X="40.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>g4AAACAABQAAAAAACQAAAAABwIAAAAAAAAoQBAhAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\OperandType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Cil.StackBehaviour" Collapsed="true">
+    <Position X="53" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQEDgAAAFABAMAABAEAAACUQAAIQCQAEAAAAAAABAQ=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Cil\StackBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Metadata.CodedIndex" Collapsed="true">
+    <Position X="47.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABYAgAAIAAAUAARAAIQAAQAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\CodedIndex.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Metadata.ElementType" Collapsed="true">
+    <Position X="60" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAxQgAAQCACBAwQIIAcgMAwACAECEAAQAQiSgCEAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\ElementType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Metadata.TokenType" Collapsed="true">
+    <Position X="58.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAIAAAFEAAAEQAAgAAQAAggkAIAIACAASRAJgAE=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Metadata\TokenType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mono.Cecil.Signatures.Constraint" Collapsed="true">
+    <Position X="49.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAA=</HashCode>
+      <FileName>src\MonoCecil\Mono.Cecil.Signatures\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Calibri" Size="9.75" />
+</ClassDiagram>

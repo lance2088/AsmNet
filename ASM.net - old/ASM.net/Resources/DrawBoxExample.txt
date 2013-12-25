@@ -1,0 +1,58 @@
+namespace TestProgram
+{
+	public class Test
+	{
+		;set video mode: 320*200 - 256 colors
+		MOV ah, 0
+		mov al, 13h
+		int 10
+		
+		;X/Y offset
+		mov cx, 10
+		mov dx, 10
+		mov bx, 0
+		mov al, 15
+		
+		
+		;draw top
+		mov ah, ch
+		int 10
+		inc cx
+		cmp cx, 35
+		jnz 33h
+		
+		;reset
+		mov cx, 10
+		mov dx, 30
+		
+		;draw bottom
+		mov ah, ch
+		int 10
+		inc cx
+		cmp cx, 35
+		jnz 5eh
+		
+		;reset
+		mov cx, 10
+		mov dx, 10
+		
+		;draw left
+		mov ah, ch
+		int 10
+		inc dx
+		cmp dx, 30
+		jnz 89h
+				
+		;reset
+		mov cx, 35
+		mov dx, 10
+		
+		;draw right
+		mov ah, ch
+		int 10
+		inc dx
+		cmp dx, 31
+		jnz b4h
+		
+	}
+}

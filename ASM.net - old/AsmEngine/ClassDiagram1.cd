@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AsmEngine.AssemblerClass" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAIAAAAAAAAAAAAIAAAAAAEgAAAAAQAAAAAAAA=</HashCode>
+      <FileName>AssemblerClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.AssemblerExecute" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kQQAAAACCAAAYAQgEIgABAAAAAAAAAQAAQAAABABAAQ=</HashCode>
+      <FileName>AssemblerExecute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.AssemblerNamespace" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAABAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AssemblerNamespace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.CompilerSettings" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompilerSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.PointerHelper" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAAAAAAAAAAAAAAAAAAQAAAgAAgAgAAAAAAA=</HashCode>
+      <FileName>PointerHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Collection.StackCollection" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEYAAEAAAAAAAAAQCAAABAAAAAAAAgAAAAAAAAAUIAA=</HashCode>
+      <FileName>Collection\StackCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Core.BIOS" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\BIOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Core.MemoryBlock" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\MemoryBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Core.CPU.Virtual8086" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAEAECAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Core\CPU\Virtual8086.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Core.Drivers.Driver" Collapsed="true">
+    <Position X="4.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAIAAAAAQCAAAAAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>Core\Drivers\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Core.Drivers.KeyboardDriver" Collapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAIAAAAAACAAAAAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>Core\Drivers\KeyboardDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Core.Drivers.VgaDriver" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAEAAAAIAAAAAASAAAAAAAAAAAAAAEYAQA=</HashCode>
+      <FileName>Core\Drivers\VgaDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.DataTypes.AsmInt32" Collapsed="true">
+    <Position X="4.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\AsmInt32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.DataTypes.AsmString" Collapsed="true">
+    <Position X="2" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTypes\AsmString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.DataTypes.IData" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAACAA=</HashCode>
+      <FileName>DataTypes\IData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AsmEngine.Drivers.KeyboardDriver" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\KeyboardDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Encryptions.DragonEncryption" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAQAAAQAAAAAAQAAAEAAAIAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Encryptions\DragonEncryption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.CurrentOpcodeEventArgs" Collapsed="true">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\CurrentOpcodeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.CurrentOpcodeEvent" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Events\CurrentOpcodeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.DrawPixelEventArgs" Collapsed="true">
+    <Position X="19.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACQAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\DrawPixelEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.DrawPixelEvent" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAA=</HashCode>
+      <FileName>Events\DrawPixelEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.FlagUpdateEvent" Collapsed="true">
+    <Position X="21" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\FlagUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.HaltEvent" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\HaltEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.ParsedOpcodeEventArgs" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Events\ParsedOpcodeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.ParsedOpcodeEvent" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ParsedOpcodeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.ProcessStatusUpdateEventArgs" Collapsed="true">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ProcessStatusUpateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.ProcessStatusUpateEvent" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Events\ProcessStatusUpateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.RegisterUpdateEvent" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Events\RegisterUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.SetListviewBackColorEventArgs" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Events\SetListviewBackColorEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.SetListviewBackColorEvent" Collapsed="true">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SetListviewBackColorEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.SetVideoModeEventArgs" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SetVideoModeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.SetVideoModeEvent" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQEAE=</HashCode>
+      <FileName>Events\SetVideoModeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.StackUpdateEventArgs" Collapsed="true">
+    <Position X="15.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\StackUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.StackUpdateEvent" Collapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\StackUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.VirtualWriteEventArgs" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Events\VirtualWriteEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Events.VirtualWriteEvent" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\VirtualWriteEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Instructions.Acall" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Instructions\CALL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.CMP" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAACEA=</HashCode>
+      <FileName>Instructions\CMP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.DEC" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Instructions\DEC.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.INC" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Instructions\INC.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.MOV" Collapsed="true">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Instructions\MOV.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.NOP" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Instructions\NOP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.PUSH" Collapsed="true">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Instructions\PUSH.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.Interrupts.INT10" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Instructions\Interrupts\INT10.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.Interrupts.INT16" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAgAAACAA=</HashCode>
+      <FileName>Instructions\Interrupts\INT16.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.Interrupts.INT21" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Instructions\Interrupts\INT21.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.Jump.JMP" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Instructions\Jump\JMP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.Jump.JNZ" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Instructions\Jump\JNZ.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.Instructions.Jump.JZ" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Instructions\Jump\JZ.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AsmEngine.NetEngine.Beep" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetEngine\Beep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.NetEngine.MessageBox" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>NetEngine\MessageBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.NetEngine.Console.Write" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetEngine\Console\Write.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.NetEngine.IO.CreateFile" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetEngine\IO\CreateFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.NetEngine.IO.WriteFile" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetEngine\IO\WriteFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.NetEngine.Sockets.Accept" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetEngine\Sockets\Accept.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.NetEngine.Sockets.Listen" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetEngine\Sockets\Listen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Objects.Function" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Objects\Function.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Objects.Variable" Collapsed="true">
+    <Position X="2" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Variable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Video.GraphicsDevice" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQBAAgAAAAAEAAgIAAAAQAAAAAAAAAAAAAAAIAYA=</HashCode>
+      <FileName>Video\GraphicsDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Video.VideoMessage" Collapsed="true">
+    <Position X="19.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAACAAAAAAAAACAAAAAAAAAACA=</HashCode>
+      <FileName>Video\VideoMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Video.VideoMemory" Collapsed="true">
+    <Position X="17.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACBAAAAAgAAAAAAEQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Video\VideoMemory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Wrappers.Advapi32" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABRAlIEABDCAISAYoQKgCggQAUIQEIAEINANAJAAB4E=</HashCode>
+      <FileName>Wrappers\Advapi32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Wrappers.Kernel32" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>75RgvSzMQay74+1E+D+82a2P/0pSRrnbdYc7RYhyXRc=</HashCode>
+      <FileName>Wrappers\Kernel32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsmEngine.Wrappers.ws2_32" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAVIAAYAAAgAAAgAAgCABAAIIQAAEQAAAAEAA=</HashCode>
+      <FileName>Wrappers\ws2_32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="AsmEngine.Flags" Collapsed="true">
+    <Position X="10.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAwIAAgQCQoEIABkBChBkAAAgAAABAAAEAIAA=</HashCode>
+      <FileName>Structures.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AsmEngine.Registers" Collapsed="true">
+    <Position X="12.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACQAAACSwAAJAAAAAAAIAAAAAAABAQAAAgEAAA=</HashCode>
+      <FileName>Structures.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="AsmEngine.Instructions.Interrupts.IInterrupt" Collapsed="true">
+    <Position X="12.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Instructions\Interrupts\IInterrupt.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AsmEngine.Objects.AsmOpcode" Collapsed="true">
+    <Position X="10.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Objects\AsmOpcode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="AsmEngine.VariableType" Collapsed="true">
+    <Position X="17.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AsmEngine.MessageBoxResult" Collapsed="true">
+    <Position X="12.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAASAAYACBAAAAAAAAAACAAAAIAAAADAACAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AsmEngine.Register" Collapsed="true">
+    <Position X="15.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAACQAAAASwAIJAAAAAAAIAAAAAAAAAAAAABAACA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AsmEngine.VideoMode" Collapsed="true">
+    <Position X="19.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AsmEngine.Priority" Collapsed="true">
+    <Position X="14" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAIAgIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AsmEngine.Objects.Accessor" Collapsed="true">
+    <Position X="10.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIEAAAAAEAAAAAAEAAAAAAAAQAA=</HashCode>
+      <FileName>Objects\Accessor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="AsmEngine.Events.CurrentOpcodeEventHandler" Collapsed="true">
+    <Position X="10.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\CurrentOpcodeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.DrawPixelEventHandler" Collapsed="true">
+    <Position X="12.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\DrawPixelEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.FlagUpdateEventHandler" Collapsed="true">
+    <Position X="14" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\FlagUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.HaltEventHandler" Collapsed="true">
+    <Position X="15.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\HaltEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.ParsedOpcodeEventHandler" Collapsed="true">
+    <Position X="17.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Events\ParsedOpcodeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.ProcessStatusUpdateEventHandler" Collapsed="true">
+    <Position X="19.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ProcessStatusUpateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.RegisterUpdateEventHandler" Collapsed="true">
+    <Position X="21" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\RegisterUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.SetListviewBackColorEventHandler" Collapsed="true">
+    <Position X="10.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Events\SetListviewBackColorEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.SetVideoModeEventHandler" Collapsed="true">
+    <Position X="12.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Events\SetVideoModeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.StackUpdateEventHandler" Collapsed="true">
+    <Position X="14" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Events\StackUpdateEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="AsmEngine.Events.VirtualWriteEventHandler" Collapsed="true">
+    <Position X="15.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Events\VirtualWriteEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Calibri" Size="9.75" />
+</ClassDiagram>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB868F6F-1DC2-448A-BBD4-A85CB9DE0ABE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AsmEngine</RootNamespace>
+    <AssemblyName>AsmEngine</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblerExecute.cs" />
+    <Compile Include="AssemblerNamespace.cs" />
+    <Compile Include="AssemblerClass.cs" />
+    <Compile Include="Collection\StackCollection.cs" />
+    <Compile Include="CompilerSettings.cs" />
+    <Compile Include="Compressor.cs" />
+    <Compile Include="Core\BIOS.cs" />
+    <Compile Include="Core\CPU\Virtual8086.cs" />
+    <Compile Include="Core\Drivers\Driver.cs" />
+    <Compile Include="Core\Drivers\KeyboardDriver.cs" />
+    <Compile Include="Core\Drivers\VgaDriver.cs" />
+    <Compile Include="Core\MemoryBlock.cs" />
+    <Compile Include="DataTypes\AsmInt32.cs" />
+    <Compile Include="Drivers\KeyboardDriver.cs" />
+    <Compile Include="Events\DrawPixelEvent.cs" />
+    <Compile Include="Events\FlagUpdateEvent.cs" />
+    <Compile Include="Events\HaltEvent.cs" />
+    <Compile Include="Events\ProcessStatusUpateEvent.cs" />
+    <Compile Include="Events\SetListviewBackColorEvent.cs" />
+    <Compile Include="Events\SetVideoModeEvent.cs" />
+    <Compile Include="Events\VirtualWriteEvent.cs" />
+    <Compile Include="Instructions\CMP.cs" />
+    <Compile Include="Instructions\Interrupts\IInterrupt.cs" />
+    <Compile Include="Instructions\Interrupts\INT10.cs" />
+    <Compile Include="Instructions\Interrupts\INT16.cs" />
+    <Compile Include="Instructions\Interrupts\INT21.cs" />
+    <Compile Include="Instructions\Jump\JE.cs" />
+    <Compile Include="Instructions\Jump\JNE.cs" />
+    <Compile Include="Instructions\Jump\JNZ.cs" />
+    <Compile Include="Instructions\Jump\JZ.cs" />
+    <Compile Include="Instructions\MOV.cs" />
+    <Compile Include="Instructions\NOP.cs" />
+    <Compile Include="Instructions\PUSH.cs" />
+    <Compile Include="DataTypes\AsmString.cs" />
+    <Compile Include="DataTypes\IData.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Events\CurrentOpcodeEvent.cs" />
+    <Compile Include="Events\ParsedOpcodeEvent.cs" />
+    <Compile Include="Events\RegisterUpdateEvent.cs" />
+    <Compile Include="Events\StackUpdateEvent.cs" />
+    <Compile Include="Instructions\Jump\JMP.cs" />
+    <Compile Include="Instructions\CALL.cs" />
+    <Compile Include="Instructions\DEC.cs" />
+    <Compile Include="Instructions\INC.cs" />
+    <Compile Include="NetEngine\ActivateActCtx.cs" />
+    <Compile Include="NetEngine\AllocConsole.cs" />
+    <Compile Include="NetEngine\AttachConsole.cs" />
+    <Compile Include="NetEngine\Beep.cs" />
+    <Compile Include="NetEngine\CloseHandle.cs" />
+    <Compile Include="NetEngine\Console\CreateConsoleScreenBuffer.cs" />
+    <Compile Include="NetEngine\Console\Write.cs" />
+    <Compile Include="NetEngine\CreateEvent.cs" />
+    <Compile Include="NetEngine\CreateMutex.cs" />
+    <Compile Include="NetEngine\DebugActiveProcess.cs" />
+    <Compile Include="NetEngine\GetLastError.cs" />
+    <Compile Include="NetEngine\IO\CopyFile.cs" />
+    <Compile Include="NetEngine\IO\CreateDirectory.cs" />
+    <Compile Include="NetEngine\IO\CreateDirectoryEx.cs" />
+    <Compile Include="NetEngine\IO\CreateFile.cs" />
+    <Compile Include="NetEngine\IO\WriteFile.cs" />
+    <Compile Include="NetEngine\IsDebuggerPresent.cs" />
+    <Compile Include="NetEngine\MessageBox.cs" />
+    <Compile Include="NetEngine\OpenMutex.cs" />
+    <Compile Include="NetEngine\Sockets\Accept.cs" />
+    <Compile Include="NetEngine\Sockets\Listen.cs" />
+    <Compile Include="NetEngine\WaitForSingleObject.cs" />
+    <Compile Include="Objects\Accessor.cs" />
+    <Compile Include="Objects\AsmOpcode.cs" />
+    <Compile Include="Objects\Function.cs" />
+    <Compile Include="Objects\Variable.cs" />
+    <Compile Include="PointerHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures.cs" />
+    <Compile Include="Video\GraphicsDevice.cs" />
+    <Compile Include="Video\VideoMemory.cs" />
+    <Compile Include="Wrappers\Advapi32.cs" />
+    <Compile Include="Wrappers\Kernel32.cs" />
+    <Compile Include="Wrappers\ws2_32.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Encryptions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

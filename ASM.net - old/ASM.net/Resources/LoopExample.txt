@@ -1,0 +1,19 @@
+namespace TestProgram
+{
+	public class Test
+	{
+		;reset registers
+		mov ecx, 0
+		mov eax, 0
+		
+		inc eax
+		cmp eax, 255
+		jnz 18h
+		cmp ecx, 255
+		inc ecx
+		jnz 12h
+		
+		;done looping 65025 times
+		writel "Done looping"
+	}
+}

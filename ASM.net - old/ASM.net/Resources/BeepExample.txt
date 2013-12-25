@@ -1,0 +1,15 @@
+namespace TestProgram
+{
+	public class Test
+	{
+		mov ecx, 1000 ;freq
+		mov bx, 0 ;duration
+		
+		push ecx
+		push bx
+		call beep
+		dec ecx
+		inc bx
+		jmp 18h
+	}
+}

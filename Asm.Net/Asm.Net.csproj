@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF6B7ED9-EB5D-45F6-BB13-F44E49DAA634}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Asm.Net</RootNamespace>
+    <AssemblyName>Asm.Net</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsmNet.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\BeaEngine\BeaConstants.cs" />
+    <Compile Include="src\BeaEngine\BeaEngine.cs" />
+    <Compile Include="src\BeaEngine\Structs.cs" />
+    <Compile Include="src\BeaEngine\UnmanagedBuffer.cs" />
+    <Compile Include="src\BreakPoint.cs" />
+    <Compile Include="src\Flags.cs" />
+    <Compile Include="src\Hardware\Harddisk\Directory.cs" />
+    <Compile Include="src\Hardware\Harddisk\File.cs" />
+    <Compile Include="src\Hardware\Harddisk\Harddisk.cs" />
+    <Compile Include="src\Hardware\Hardware.cs" />
+    <Compile Include="src\Hardware\Memory.cs" />
+    <Compile Include="src\Hardware\Processor.cs" />
+    <Compile Include="src\Instruction.cs" />
+    <Compile Include="src\Interfaces\IADD.cs" />
+    <Compile Include="src\Interfaces\IAnd.cs" />
+    <Compile Include="src\Interfaces\ICall.cs" />
+    <Compile Include="src\Interfaces\ICmp.cs" />
+    <Compile Include="src\Interfaces\IInc.cs" />
+    <Compile Include="src\Interfaces\IJump.cs" />
+    <Compile Include="src\Interfaces\IMov.cs" />
+    <Compile Include="src\Interfaces\IMul.cs" />
+    <Compile Include="src\Interfaces\INop.cs" />
+    <Compile Include="src\Interfaces\IPush.cs" />
+    <Compile Include="src\Interfaces\IReturn.cs" />
+    <Compile Include="src\Interfaces\IXor.cs" />
+    <Compile Include="src\LazyMethod.cs" />
+    <Compile Include="src\Module.cs" />
+    <Compile Include="src\Opcodes\ADD\ADD_BYTE_PTR_EAX_AL.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EAX_ESP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBP_ESP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EBX_ESP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ECX_ESP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDI_ESP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_EDX_ESP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESI_ESP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_EAX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_EBP.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_EBX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_ECX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_EDI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_EDX.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_ESI.cs" />
+    <Compile Include="src\Opcodes\AND\AND_ESP_ESP.cs" />
+    <Compile Include="src\Opcodes\CALL.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EAX_ESP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBP_ESP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EBX_ESP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ECX_ESP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDI_ESP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_EDX_ESP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESI_ESP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_EAX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_EBP.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_EBX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_ECX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_EDI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_EDX.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_ESI.cs" />
+    <Compile Include="src\Opcodes\CMP\CMP_ESP_ESP.cs" />
+    <Compile Include="src\Opcodes\INC\INC_EBP.cs" />
+    <Compile Include="src\Opcodes\INC\INC_EBX.cs" />
+    <Compile Include="src\Opcodes\INC\INC_ECX.cs" />
+    <Compile Include="src\Opcodes\INC\INC_EDI.cs" />
+    <Compile Include="src\Opcodes\INC\INC_EDX.cs" />
+    <Compile Include="src\Opcodes\INC\INC_ESI.cs" />
+    <Compile Include="src\Opcodes\INC\INC_ESP.cs" />
+    <Compile Include="src\Opcodes\Jumps\JB.cs" />
+    <Compile Include="src\Opcodes\Jumps\JE.cs" />
+    <Compile Include="src\Opcodes\Jumps\JMP.cs" />
+    <Compile Include="src\Opcodes\Jumps\JNE.cs" />
+    <Compile Include="src\Opcodes\Jumps\JNZ.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_DWORD_PTR_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBP_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EBX_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ECX_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDI_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EDX_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESI_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_EBP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_EBX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_ECX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_EDI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_EDX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_ESI.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_ESP_ESP.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_REGISTER_DWORD_PTR.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_REGISTER_VARIABLE_INDEX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_VARIABLE_INDEX_VALUE.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_VARIABLE_VALUE.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EAX_ESP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBP_ESP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EBX_ESP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ECX_ESP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDI_ESP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_EDX_ESP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESI_ESP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_EAX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_EBP.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_EBX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_ECX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_EDI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_EDX.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_ESI.cs" />
+    <Compile Include="src\Opcodes\MUL\MUL_ESP_ESP.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_EDX.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_EAX.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_EBP.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_EBX.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_ECX.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_EDI.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_ESI.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_ESP.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_VALUE.cs" />
+    <Compile Include="src\Opcodes\PUSH\PUSH_VARIABLE.cs" />
+    <Compile Include="src\Opcodes\RET.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EAX_ESP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBP_ESP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EBX_ESP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ECX_ESP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDI_ESP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_EDX_ESP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESI_ESP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_EAX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_EBP.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_EBX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_ECX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_EDI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_EDX.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_ESI.cs" />
+    <Compile Include="src\Opcodes\XOR\XOR_ESP_ESP.cs" />
+    <Compile Include="src\OpcodeReader.cs" />
+    <Compile Include="src\Opcodes.cs" />
+    <Compile Include="src\Opcodes\AsmNet\Variable.cs" />
+    <Compile Include="src\Opcodes\INC\INC_EAX.cs" />
+    <Compile Include="src\Opcodes\MOV\MOV_EAX.cs" />
+    <Compile Include="src\Opcodes\NOP.cs" />
+    <Compile Include="src\OpcodeWriter.cs" />
+    <Compile Include="src\PayloadReader.cs" />
+    <Compile Include="src\PayloadWriter.cs" />
+    <Compile Include="src\PE\PEHeaders.cs" />
+    <Compile Include="src\PE\PeParser.cs" />
+    <Compile Include="src\PE\PEReader.cs" />
+    <Compile Include="src\PE\PELoader.cs" />
+    <Compile Include="src\Prototypes.cs" />
+    <Compile Include="src\PublicClasses.cs" />
+    <Compile Include="src\QuickLZ.cs" />
+    <Compile Include="src\Registers.cs" />
+    <Compile Include="src\Sections\ApiSection.cs" />
+    <Compile Include="src\Sections\CodeSection.cs" />
+    <Compile Include="src\Sections\DataSection.cs" />
+    <Compile Include="src\Sections\Section.cs" />
+    <Compile Include="src\Utils\EasyConvert.cs" />
+    <Compile Include="src\VirtualAddress.cs" />
+    <Compile Include="src\x86Data.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

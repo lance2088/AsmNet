@@ -1,0 +1,30 @@
+namespace TestProgram
+{
+	public class Test
+	{
+		push NULL
+		push "message"
+		push "title"
+		push MB_YESNO
+		call MessageBox
+		
+		;lets see which button u pressed
+		cmp eax, IDNO
+		je 82h ;Lets see if we pressed NO first
+		push NULL
+		push "You pressed 'YES'"
+		push ""
+		push MB_OK
+		call MessageBox
+		jmp B1h ;Just go directly to 'NOP'
+
+		;we pressed no
+		push NULL
+		push "You pressed 'NO'"
+		push ""
+		push MB_OK
+		call MessageBox
+	
+		nop ;end
+	}
+}
